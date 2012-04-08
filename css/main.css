@@ -1,0 +1,88 @@
+body {
+  padding-top: 70px;
+  font-family: Futura, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #111111;
+  background-image: -webkit-gradient(
+    radial,
+    50% 0%, 0,
+    50% 0%, 600,
+    from(#334033),
+    to(#111111));
+  background-image: -moz-radial-gradient(
+    50% 0% 270deg,
+    circle cover,
+    #334033 0%,
+    #111111 600px);
+  background-repeat: no-repeat;
+  min-height: 600px;
+  color: #ffffff;
+}
+
+.row-fluid {
+  width: 940px;
+}
+
+h1 {
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 5px;
+  text-align: right;
+}
+
+#firefly h1 {
+  color: #ff5a00;
+}
+
+#dragonfly h1 {
+  color: #008aff;
+}
+
+#butterfly h1 {
+  color: #ff7474;
+}
+
+.hero-panel {
+  background-color: #000000;
+  background-color: rgba(0,0,0,0.5);
+  margin-bottom: 20px !important;
+  position: relative;
+}
+
+.hero-panel > span {
+  display: block;
+  height: 50px;
+  margin: 5px;
+  background-color: #000000;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .row-fluid {
+    width: 724px;
+  }
+}
+
+@media (max-width: 979px) {
+  .row-fluid {
+    width: auto;
+  }
+}
+
+@media (min-width: 980px) {
+  body {
+    padding-top: 80px;
+  }
+
+  .navbar .brand {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding-top: 90px;
+  }
+
+  .row-fluid {
+    width: 1170px;
+  }
+}
