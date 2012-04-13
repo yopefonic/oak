@@ -35,11 +35,23 @@ function animatePanels(panel_a, panel_b, panel_c, direction) {
 }
 
 function flipToFront() {
-  animatePanels(panelContent.firefly.front, panelContent.dragonfly.front, panelContent.butterfly.front,'RIGHT');
+  if ($(document).width() < 768) {
+    $('#firefly').html(panelContent.firefly.front);
+    $('#dragonfly').html(panelContent.dragonfly.front);
+    $('#butterfly').html(panelContent.butterfly.front);
+  } else {
+    animatePanels(panelContent.firefly.front, panelContent.dragonfly.front, panelContent.butterfly.front,'RIGHT');
+  }
 }
 
 function flipToBack() {
-  animatePanels(panelContent.firefly.back, panelContent.dragonfly.back, panelContent.butterfly.back,'RIGHT');
+  if ($(document).width() < 768) {
+    $('#firefly').html(panelContent.firefly.back);
+    $('#dragonfly').html(panelContent.dragonfly.back);
+    $('#butterfly').html(panelContent.butterfly.back);
+  } else {
+    animatePanels(panelContent.firefly.back, panelContent.dragonfly.back, panelContent.butterfly.back,'RIGHT');
+  }
 }
 
 var panelContent = {
