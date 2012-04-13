@@ -7,65 +7,48 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Le styles -->
+
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="ico/favicon.ico">
   </head>
 
   <body>
 
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" href="#">OAK scooters</a>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#"><i></i> OAK scooters</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a id="overview_link" href="#overview">Overview</a></li>
+              <li><a id="information_link" href="#information">Information</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="container row-fluid">
-    <div class="span4 hero-panel" id="firefly">
-      <span></span>
-      <span></span>
-      <h1>FireFLy</h1>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+    <div id="content_container" class="container row-fluid">
+      <div class="span4 hero-panel" id="firefly"></div>
+      <div class="span4 hero-panel" id="dragonfly"></div>
+      <div class="span4 hero-panel" id="butterfly"></div>
     </div>
-    <div class="span4 hero-panel" id="dragonfly">
-      <span></span>
-      <span></span>
-      <h1>DragonFly</h1>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <div class="span4 hero-panel" id="butterfly">
-      <span></span>
-      <span></span>
-      <h1>ButterFly</h1>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
 
-  <!-- Le javascript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.js"></script>
-
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.color.js"></script>
+    <script src="js/jquery.flippy.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/flip.panels.js"></script>
   </body>
 </html>
