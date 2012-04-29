@@ -38,8 +38,40 @@ h1 {
   border-top: 5px solid #008aff;
 }
 
+#dragonfly .pos1 {
+  height: 200px;
+  background-image: url(../img/scooters/dragonfly-hor1.jpg);
+}
+
+#dragonfly .pos2 {
+
+}
+
+#dragonfly .pos3 {
+}
+
+#dragonfly .pos4 {
+
+}
+
 #butterfly {
   border-top: 5px solid #ff7474;
+}
+
+#butterfly .pos1 {
+  height: 200px;
+}
+
+#butterfly .pos2 {
+
+}
+
+#butterfly .pos3 {
+
+}
+
+#butterfly .pos4 {
+
 }
 
 #content_container {
@@ -57,10 +89,16 @@ h1 {
   background-color: rgba(0,0,0,0.5);
 }
 
-.hero-panel > span {
+.hero-panel span.image {
   display: block;
-  height: 100px;
   margin: 5px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hero-panel span.image img {
+  display: block;
+  width: 100%;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {

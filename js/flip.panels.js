@@ -57,62 +57,56 @@ function flipToBack() {
 var panelContent = {
   firefly: {
     front: '\
-      <span></span>\
-      <span></span>\
+      <span class="image"><img src="img/scooters/firefly-hor1.jpg"/></span>\
       <h1>Firefly</h1>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
+      <span class="image"><img src="img/scooters/firefly-hor4.jpg"/></span>\
+      <span class="image"><img src="img/scooters/firefly-hor3.jpg"/></span>\
+      <span class="image"><img src="img/scooters/firefly-hor2.jpg"/></span>\
     ',
     back: '\
-      <h1>This is data</h1>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
+      <section>\
+        <header><h1>This is data</h1></header>\
+        <span></span>\
+        <span></span>\
+        <span></span>\
+        <span></span>\
+      </section>\
     '
   },
   dragonfly: {
     front: '\
-      <span></span>\
-      <span></span>\
+      <span class="image"><img src="img/scooters/dragonfly-hor1.jpg"/></span>\
+      <span class="image"><img src="img/scooters/dragonfly-hor3.jpg"/></span>\
       <h1>Dragonfly</h1>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
+      <span class="image"><img src="img/scooters/dragonfly-hor2.jpg"/></span>\
+      <span class="image"><img src="img/scooters/dragonfly-hor4.jpg"/></span>\
     ',
     back: '\
-      <h1>This is data</h1>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
+      <section>\
+        <header><h1>This is data</h1></header>\
+        <span></span>\
+        <span></span>\
+        <span></span>\
+        <span></span>\
+      </section>\
     '
   },
   butterfly: {
     front: '\
-      <span></span>\
-      <span></span>\
+      <span class="image"><img src="img/scooters/butterfly-hor1.jpg"/></span>\
       <h1>Butterfly</h1>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
+      <span class="image"><img src="img/scooters/butterfly-hor2.jpg"/></span>\
+      <span class="image"><img src="img/scooters/butterfly-hor3.jpg"/></span>\
+      <span class="image"><img src="img/scooters/butterfly-hor4.jpg"/></span>\
     ',
     back: '\
-      <h1>This is data</h1>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
-      <span></span>\
+      <section>\
+        <header><h1>This is data</h1></header>\
+        <span></span>\
+        <span></span>\
+        <span></span>\
+        <span></span>\
+      </section>\
     '
   }
 };
